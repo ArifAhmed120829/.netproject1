@@ -25,12 +25,12 @@
       "PackagePath": "staticwebassets/html/insert.html"
     },
     {
-      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/fetch_data.js",
-      "PackagePath": "staticwebassets/js/fetch_data.js"
-    },
-    {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/insert.js",
       "PackagePath": "staticwebassets/js/insert.js"
+    },
+    {
+      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/retrieveData.js",
+      "PackagePath": "staticwebassets/js/retrieveData.js"
     },
     {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/site.js",

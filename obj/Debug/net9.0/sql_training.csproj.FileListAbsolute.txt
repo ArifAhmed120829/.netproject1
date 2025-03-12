@@ -568,7 +568,8 @@
 /home/arif/RiderProjects/sql_training/obj/Debug/net9.0/sql_training.pdb
 /home/arif/RiderProjects/sql_training/obj/Debug/net9.0/sql_training.genruntimeconfig.cache
 /home/arif/RiderProjects/sql_training/obj/Debug/net9.0/ref/sql_training.dll
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/003rhyz6ej-snl3hegky1.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-cmb5vbi97y.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-fnnnwx4pu4.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/eb9ssx7fhb-0vcox8he01.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/sql_training.sourcelink.json
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-s3q3elpgoz.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-0vcox8he01.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-9ibwzpgt76.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/003rhyz6ej-2mofvqs878.gz

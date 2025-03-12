@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 public class Shift{
 
    public int ShiftId {get; set;} //primary key
@@ -12,7 +13,9 @@ public class Shift{
 
         // Foreign key to Company
     public int ComId { get; set; }
-    public Company Company { get; set; }
+    
+    [JsonIgnore] // 👈 Prevents serialization loops
+    public Company? Company { get; set; } // 👈 Nullable to avoid model binding issues
 
 
     public ICollection<Employee> Employees { get; set; } = new List<Employee>();

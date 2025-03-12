@@ -1,43 +1,38 @@
+using System.Text.Json.Serialization;
 public class Employee{
-   public int EmpId; //primary key
+   public int EmpId { get; set;} //primary key
+   public int ComId { get; set; }//foreign key
+   public int ShiftId { get; set; }//foreign key
+   public int DeptId  { get; set;}//foreign key
+   public int DesigId  { get; set;}//foreign key
+   
+   
+   public int EmpCode {get; set;} 
+   public string EmpName {get; set;}
 
-   public int EmpCode;
+   public string Gender {get; set;}
 
-   public int EmpName;
+   public int Gross {get; set;}
 
-   public string Gender;
+   public int basic {get; set;}
 
-   public int Gross;
+   public int HRent {get; set;}
 
-   public int basic;
+   public int Medical {get; set;}
 
-   public int HRent;
+   public int Others {get; set;}
 
-   public int Medical;
+   public DateTime dtJoin {get; set;}
 
-   public int Others;
-
-   public string dtJoin;
-
-
-
-
-   // Foreign key to Company
-    public int ComId { get; set; }
-    public Company Company { get; set; }
-
-
-   // Foreign key to Shift
-    public int ShiftId { get; set; }
-    public Shift Shift { get; set; }
-
-    // Foreign key to Department
-    public int DeptId  { get; set;}
-    public Department Department { get; set; }
-
-// Foreign key to Designation
-    public int DesigId  { get; set;}
-    public Designation Designation { get; set; }
+   
+   [JsonIgnore] // 👈 Prevents serialization loops
+    public Company? Company { get; set; }
+    [JsonIgnore] // 👈 Prevents serialization loops
+    public Shift? Shift { get; set; }
+    [JsonIgnore] // 👈 Prevents serialization loops
+    public Department? Department { get; set; }
+    [JsonIgnore] // 👈 Prevents serialization loops
+    public Designation? Designation { get; set; }
 
     
 
