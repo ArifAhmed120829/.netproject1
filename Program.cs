@@ -22,14 +22,16 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//app.UseStaticFiles(); // Enable serving static files 
+app.UseDefaultFiles();  // Enables serving default static files like index.html
+app.UseStaticFiles();   // Enables serving static files from wwwroot or another folder
 
-
-app.UseHttpsRedirection();
 app.UseRouting();
 
-
 app.UseAuthorization();
+// Redirect root URL to /html/index.html
+app.MapGet("/", () => Results.Redirect("/html/index.html"));
+
+
 
 app.MapStaticAssets();
 

@@ -12,14 +12,26 @@ public class EmployeeController : ControllerBase
     {
         _context = context;
     }
-
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
     {
-        return await _context.Employees
-            //.Include(d => d.Company)
+        var employees = await _context.Employees
+            .Select(e => new 
+            {
+                e.EmpId,
+                e.EmpName,
+                e.Gross,
+                e.basic,
+                e.HRent,
+                e.Medical,
+                e.Others
+            })
             .ToListAsync();
+
+        return Ok(employees);
     }
+   
+
     // 🟡 CREATE a new employees
     [HttpPost]
     public async Task<ActionResult<Employee>> CreateEmployee([FromBody] Employee employee)
@@ -41,11 +53,44 @@ public class EmployeeController : ControllerBase
         var designation = await _context.Designations.FindAsync(employee.DesigId);
         if (designation == null)
             return NotFound("Designation not found");
-        
+        // ✅ Convert dtJoin to UTC if it's not null
+        if (employee.dtJoin.HasValue)
+        {
+            employee.dtJoin = DateTime.SpecifyKind(employee.dtJoin.Value, DateTimeKind.Utc);
+        }
+
         
         _context.Employees.Add(employee);
         await _context.SaveChangesAsync();
         return CreatedAtAction(nameof(GetEmployees), new { id = employee.EmpId}, employee);
     }
+    
+    [HttpGet("{id}")]
+    public async Task<ActionResult> GetEmployeeDetails(int id)
+    {
+        var employeeDetails = await _context.Employees
+            .Where(e => e.EmpId == id)
+            .Select(e => new 
+            {
+                e.EmpId,
+                e.EmpName,
+                e.EmpCode,
+                e.Others,
+                Department = e.Department.DeptName,
+                Designation = e.Designation.DesigName,
+                ShiftIn = e.Shift.ShiftIn,
+                ShiftOut = e.Shift.ShiftOut,
+                Company =  e.Company.ComName
+            })
+            .FirstOrDefaultAsync();
+
+        if (employeeDetails == null)
+        {
+            return NotFound("Employee not found");
+        }
+
+        return Ok(employeeDetails);
+    }
+
 
 }

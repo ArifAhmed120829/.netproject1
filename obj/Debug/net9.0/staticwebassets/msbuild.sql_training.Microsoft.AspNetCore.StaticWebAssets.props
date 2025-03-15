@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s3q3elpgoz</Fingerprint>
-      <Integrity>6HgZC2XPFF5PTdHLD1UtCQ7D0tC5KVX8Y3+bMHE6U4o=</Integrity>
+      <Fingerprint>j264z6pz43</Fingerprint>
+      <Integrity>Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\index.html'))</OriginalItemSpec>
@@ -84,11 +84,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9ibwzpgt76</Fingerprint>
-      <Integrity>QUnfpdYxGS97TUwJB5bHYN3d3chIRW7sYQHVp/vGXwE=</Integrity>
+      <Fingerprint>42frlan893</Fingerprint>
+      <Integrity>/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\insert.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\employee_insert.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>sql_training</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/sql_training</BasePath>
+      <RelativePath>js/employee_insert.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3o9schsbkv</Fingerprint>
+      <Integrity>8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\employee_insert.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\insert.js'))">
       <SourceType>Package</SourceType>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2mofvqs878</Fingerprint>
-      <Integrity>WhHJFYECIZlGZREnKMueVsFgAF30IV9ZroSwny/1wVw=</Integrity>
+      <Fingerprint>l8wap86u0b</Fingerprint>
+      <Integrity>S4WQnLYuslrsr0FvL5RNJAHvH99TYgrXNw4Hiqi87bs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\insert.js'))</OriginalItemSpec>
@@ -120,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0vcox8he01</Fingerprint>
-      <Integrity>5Dcg570roZa+c7huZLzm/Zg7Mdzzw1tH2cc+BSu/CnY=</Integrity>
+      <Fingerprint>h3xy6qhi10</Fingerprint>
+      <Integrity>8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\retrieveData.js'))</OriginalItemSpec>

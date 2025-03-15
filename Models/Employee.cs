@@ -22,7 +22,7 @@ public class Employee{
 
    public int Others {get; set;}
 
-   public DateTime dtJoin {get; set;}
+   public DateTime? dtJoin {get; set;}
 
    
    [JsonIgnore] // 👈 Prevents serialization loops
@@ -35,7 +35,5 @@ public class Employee{
     public Designation? Designation { get; set; }
 
     
-
-
-
+    
 }

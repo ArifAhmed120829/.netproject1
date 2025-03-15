@@ -1,9 +1,6 @@
 document.getElementById("submitBtn").addEventListener("click", function () {
     const companyData = {
         comName: document.getElementById("comName").value,
-        basic: parseFloat(document.getElementById("basic").value),
-        hrent: parseFloat(document.getElementById("hrent").value),
-        medical: parseFloat(document.getElementById("medical").value),
         isInactive: document.getElementById("isInactive").checked
     };
 
@@ -108,16 +105,12 @@ document.getElementById("submitBtn5").addEventListener("click", function () {
     const dtJoin = document.getElementById("dtJoin").value; // Value in 'hh:mm' 
     const employeeData = {
         EmpName: document.getElementById("EmpName").value,
-        Company: parseFloat(document.getElementById("comId4").value),
+        comId: parseFloat(document.getElementById("comId4").value),
         shiftId: parseFloat(document.getElementById("shiftId").value),
-        Department: parseFloat(document.getElementById("deptId").value),
-        Designation: parseFloat(document.getElementById("desigId").value),
+        deptId: parseFloat(document.getElementById("deptId").value),
+        desigId: parseFloat(document.getElementById("desigId").value),
         empCode: parseFloat(document.getElementById("empCode").value),
         gender: document.getElementById("gender").value,
-        basic: parseFloat(document.getElementById("basic2").value),
-        hrent2: parseFloat(document.getElementById("hrent2").value),
-        medical: parseFloat(document.getElementById("medical2").value),
-        others: parseFloat(document.getElementById("others").value),
         gross: parseFloat(document.getElementById("gross").value),
         dtJoin: dtJoin
     };

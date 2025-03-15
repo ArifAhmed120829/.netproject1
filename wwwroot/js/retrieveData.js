@@ -1,3 +1,4 @@
+//Company table
 document.addEventListener("DOMContentLoaded", function () {
    fetch("http://localhost:5256/api/company") // Adjust the URL if needed
        .then(response => response.json())
@@ -19,3 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
        })
        .catch(error => console.error("Error fetching data:", error));
 });
+
+
