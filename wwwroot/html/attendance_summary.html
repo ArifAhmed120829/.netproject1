@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Summary</title>
+</head>
+<body>
+<!-- Container for Attendance Summary -->
+<h1>Attendance Summary</h1>
+<!-- Company Dropdown -->
+<label for="company-dropdown">Select Company:</label>
+<select id="company-dropdown">
+    <option value="">-- Select Company --</option>
+</select>
+
+<!-- Employee Dropdown (Filtered by Company) -->
+<label for="employee-dropdown">Select Employee:</label>
+<select id="employee-dropdown">
+    <option value="">-- Select Employee --</option>
+</select>
+
+<!-- Attendance Summary Table -->
+<table id="attendance-summary-table">
+    <thead>
+    <tr>
+        <th>Year</th>
+        <th>Month</th>
+        <th>Absences</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="/js/attendance_summary.js"></script>
+
+</body>
+</html>

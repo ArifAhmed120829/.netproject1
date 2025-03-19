@@ -1,4 +1,6 @@
 using System.Text.Json.Serialization;
+using sql_training.Models;
+
 public class Employee{
    public int EmpId { get; set;} //primary key
    public int ComId { get; set; }//foreign key
@@ -33,6 +35,12 @@ public class Employee{
     public Department? Department { get; set; }
     [JsonIgnore] // 👈 Prevents serialization loops
     public Designation? Designation { get; set; }
+    
+    [JsonIgnore] // � Prevents serialization loops
+    public ICollection<Attendance>? Attendances { get; set; }
+    
+    [JsonIgnore] // � Prevents serialization loops
+    public ICollection<Salary>? Salaries { get; set; }
 
     
     

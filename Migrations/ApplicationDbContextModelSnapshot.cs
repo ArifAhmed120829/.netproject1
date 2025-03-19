@@ -187,6 +187,118 @@ namespace sql_training.Migrations
                     b.ToTable("Shifts");
                 });
 
+            modelBuilder.Entity("sql_training.Models.Attendance", b =>
+                {
+                    b.Property<int>("EmpId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("ComId")
+                        .HasColumnType("integer");
+
+                    b.Property<TimeSpan?>("Intime")
+                        .HasColumnType("interval");
+
+                    b.Property<TimeSpan?>("Outtime")
+                        .HasColumnType("interval");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("text");
+
+                    b.HasKey("EmpId", "Date", "ComId");
+
+                    b.HasIndex("ComId");
+
+                    b.ToTable("Attendances");
+                });
+
+            modelBuilder.Entity("sql_training.Models.AttendanceSummary", b =>
+                {
+                    b.Property<int>("EmpId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Month")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("ComId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("CompanyComId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TotalAbsents")
+                        .HasColumnType("integer");
+
+                    b.HasKey("EmpId", "Year", "Month");
+
+                    b.HasIndex("ComId");
+
+                    b.HasIndex("CompanyComId");
+
+                    b.HasIndex("Year", "Month", "EmpId")
+                        .IsUnique();
+
+                    b.ToTable("AttendanceSummaries");
+                });
+
+            modelBuilder.Entity("sql_training.Models.Salary", b =>
+                {
+                    b.Property<int>("EmpId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Month")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("AbsentAmount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("ComId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("CompanyComId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("EmployeeEmpId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("Gross")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("HRent")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Medical")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PaidAmount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PayableAmount")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("basic")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("isPaid")
+                        .HasColumnType("integer");
+
+                    b.HasKey("EmpId", "Year", "Month");
+
+                    b.HasIndex("CompanyComId");
+
+                    b.HasIndex("EmployeeEmpId");
+
+                    b.ToTable("Salaries");
+                });
+
             modelBuilder.Entity("Department", b =>
                 {
                     b.HasOne("Company", "Company")
@@ -255,13 +367,76 @@ namespace sql_training.Migrations
                     b.Navigation("Company");
                 });
 
+            modelBuilder.Entity("sql_training.Models.Attendance", b =>
+                {
+                    b.HasOne("Company", "Company")
+                        .WithMany("Attendances")
+                        .HasForeignKey("ComId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Employee", "Employee")
+                        .WithMany("Attendances")
+                        .HasForeignKey("EmpId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Company");
+
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("sql_training.Models.AttendanceSummary", b =>
+                {
+                    b.HasOne("Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("ComId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Company", null)
+                        .WithMany("AttendanceSummary")
+                        .HasForeignKey("CompanyComId");
+
+                    b.HasOne("Employee", "Employee")
+                        .WithMany()
+                        .HasForeignKey("EmpId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Company");
+
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("sql_training.Models.Salary", b =>
+                {
+                    b.HasOne("Company", "Company")
+                        .WithMany("Salaries")
+                        .HasForeignKey("CompanyComId");
+
+                    b.HasOne("Employee", "Employee")
+                        .WithMany("Salaries")
+                        .HasForeignKey("EmployeeEmpId");
+
+                    b.Navigation("Company");
+
+                    b.Navigation("Employee");
+                });
+
             modelBuilder.Entity("Company", b =>
                 {
+                    b.Navigation("AttendanceSummary");
+
+                    b.Navigation("Attendances");
+
                     b.Navigation("Departments");
 
                     b.Navigation("Designations");
 
                     b.Navigation("Employees");
+
+                    b.Navigation("Salaries");
 
                     b.Navigation("Shifts");
                 });
@@ -274,6 +449,13 @@ namespace sql_training.Migrations
             modelBuilder.Entity("Designation", b =>
                 {
                     b.Navigation("Employees");
+                });
+
+            modelBuilder.Entity("Employee", b =>
+                {
+                    b.Navigation("Attendances");
+
+                    b.Navigation("Salaries");
                 });
 
             modelBuilder.Entity("Shift", b =>

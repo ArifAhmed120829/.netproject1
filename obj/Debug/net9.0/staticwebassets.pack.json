@@ -17,12 +17,24 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html",
+      "PackagePath": "staticwebassets/html/attendance_summary.html"
+    },
+    {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
       "PackagePath": "staticwebassets/html/index.html"
     },
     {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html",
       "PackagePath": "staticwebassets/html/insert.html"
+    },
+    {
+      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html",
+      "PackagePath": "staticwebassets/html/salary.html"
+    },
+    {
+      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js",
+      "PackagePath": "staticwebassets/js/attendance_summary.js"
     },
     {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/employee_insert.js",
@@ -35,6 +47,10 @@
     {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/retrieveData.js",
       "PackagePath": "staticwebassets/js/retrieveData.js"
+    },
+    {
+      "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js",
+      "PackagePath": "staticwebassets/js/salary.js"
     },
     {
       "Id": "/home/arif/RiderProjects/sql_training/wwwroot/js/site.js",

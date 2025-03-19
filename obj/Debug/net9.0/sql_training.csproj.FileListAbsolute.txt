@@ -578,8 +578,12 @@
 /home/arif/RiderProjects/sql_training/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
 /home/arif/RiderProjects/sql_training/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
 /home/arif/RiderProjects/sql_training/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz
 /home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/003rhyz6ej-l8wap86u0b.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz
-/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz
+/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz

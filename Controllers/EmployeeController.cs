@@ -30,6 +30,15 @@ public class EmployeeController : ControllerBase
 
         return Ok(employees);
     }
+    
+    [HttpGet ("bycompany")]
+    public IActionResult GetEmployeesByCompany([FromQuery] int companyId)
+    {
+        var employees = _context.Employees.Where(e => e.ComId == companyId).ToList();
+        return Ok(employees);
+    }
+
+
    
 
     // 🟡 CREATE a new employees

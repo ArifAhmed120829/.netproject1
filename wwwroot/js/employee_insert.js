@@ -1,13 +1,12 @@
+const apiUrl2 = "http://localhost:5256/api/Employee";
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("http://localhost:5256/api/Employee") // Adjust the URL if needed
+    fetch(apiUrl2)
         .then(response => response.json())
         .then(data => {
             console.log("Employee data:", data); // Log the fetched data
             const employeeDropdown = document.getElementById("employeeDropdown");
             // Clear dropdown before inserting new data
             employeeDropdown.innerHTML = `<option value="">-- Select Employee ID --</option>`;
-            
-            
             const tableBody = document.getElementById("employee-table");
             tableBody.innerHTML = ""; // Clear table before inserting new data
 
@@ -17,12 +16,17 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log("Processing Employee:", employee);  // Log each employee to check data structure
                     let row = `<tr>
                         <td>${employee.empId}</td> <!-- Directly use the EmpId value -->
-                         <td>${employee.empName}</td>
-                          <td>${employee.gross}</td>
-                           <td>${employee.basic}</td>
-                            <td>${employee.hRent}</td>
-                             <td>${employee.medical}</td>
-                              <td>${employee.others}</td>
+                         <td><input type = "text" value = "${employee.empName}" id = "name-${employee.empId}"></td>
+                          <td><input type="number" value="${employee.gross}" id="gross-${employee.empId}"></td>
+                           <td><input type="number" value="${employee.basic}" id="basic-${employee.empId}"></td>
+                            <td><input type="number" value="${employee.hRent}" id = "hRent-${employee.empId}"></td>
+                               <td><input type="number" value="${employee.medical}" id = "medical-${employee.empId}"></td>
+                                  <td><input type="number" value="${employee.others}" id = "others-${employee.empId}"></td>
+                          
+                              <td>
+                              <button onclick="updateEmployee(${employee.empId})">Edit</button>
+                              <button onclick="deleteEmployee(${employee.empId})" style="color: red;">Delete</button>
+                              </td>
                         
                     </tr>`;
                     let option = document.createElement("option");
@@ -68,3 +72,53 @@ document.getElementById("employeeDropdown").addEventListener("change", function 
     }
 });
 
+//New section for updating and deleting employee
+
+// � Edit (Update) Employee
+async function updateEmployee(employeeId) {
+    const updatedEmployee = {
+        empId: employeeId,
+        empName: document.getElementById(`name-${employeeId}`).value,
+        gross: parseInt(document.getElementById(`gross-${employeeId}`).value),
+        basic: parseInt(document.getElementById(`basic-${employeeId}`).value),
+        hRent: parseInt(document.getElementById(`hRent-${employeeId}`).value),
+        medical: parseInt(document.getElementById(`medical-${employeeId}`).value),
+        others: parseInt(document.getElementById(`others-${employeeId}`).value)
+        
+    };
+
+    try {
+        const response = await fetch(`${apiUrl2}/${employeeId}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(updatedEmployee)
+        });
+
+        if (response.ok) {
+            alert("Company updated successfully!");
+        } else {
+            alert("Failed to update company.");
+        }
+    } catch (error) {
+        console.error("Error updating company:", error);
+    }
+}
+
+// � Delete Employee
+async function deleteEmployee(employeeId) {
+    if (!confirm("Are you sure you want to delete this employee?")) return;
+
+    try {
+        const response = await fetch(`${apiUrl2}/${employeeId}`, {
+            method: "DELETE"
+        });
+
+        if (response.ok) {
+            alert("Company deleted successfully!");
+        } else {
+            alert("Failed to delete company.");
+        }
+    } catch (error) {
+        console.error("Error deleting company:", error);
+    }
+}

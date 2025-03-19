@@ -5,73 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <!-- Tabulator CSS -->
+    <link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
+    <!-- Tabulator JS -->
+    <script src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
+
 </head>
 <body>
-<!-- creating a different tab for inputting data -->
-<button onclick="openInsertPage()">Insert Data</button>
+<header>
 
-<script>
-    function openInsertPage() {
-        window.open('insert.html', '_blank');
-    }
-</script>
+
+    <a href="attendance_summary.html" id="attendance-summary-btn">Attendance Summary</a>
+    <br><br>
+
+    <a href="salary.html" id="salary-btn">Salary_Page</a>
+    <br><br>
+
+
+</header>
+
+<main>
+    <!-- creating a different tab for inputting data -->
+    <button onclick="openInsertPage()">Insert Data</button>
+
+    <script>
+        function openInsertPage() {
+            window.open('insert.html', '_blank');
+        }
+    </script>
 
     <h2>Company List</h2>
+    <div id="company-table">
+        <!-- Data will be inserted here dynamically -->
+    </div>
     
+    <br><br>
+    <h2>Employee List</h2>
+
     <table border="1">
         <thead>
-            <tr>
-                <th>Company ID</th>
-                <th>Company Name</th>
-                <th>Basic</th>
-                <th>Hrent</th>
-                <th>Medical</th>
-                <th>IsInactive</th>
-            </tr>
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Gross</th>
+            <th>Basic</th>
+            <th>Hrent</th>
+            <th>Medical</th>
+            <th>Others</th>
+            <th>Actions</th>
+        </tr>
         </thead>
-        <tbody id="company-table">
-            <!-- Data will be inserted here dynamically -->
+        <tbody id="employee-table">
+        <!-- Data will be inserted here dynamically -->
         </tbody>
     </table>
 
-<br><br>
-<h2>Employee List</h2>
+    <!-- Dropdown to select Employee ID -->
+    <label for="employeeDropdown">Select Employee ID:</label>
+    <select id="employeeDropdown">
+        <option value="">-- Select Employee ID --</option>
+        <!-- Employee IDs will be inserted here dynamically -->
+    </select>
 
-<table border="1">
-    <thead>
-    <tr>
-        <th>Employee ID</th>
-        <th>Employee Name</th>
-        <th>Gross</th>
-        <th>Basic</th>
-        <th>Hrent</th>
-        <th>Medical</th>
-        <th>Others</th>
-    </tr>
-    </thead>
-    <tbody id="employee-table">
-    <!-- Data will be inserted here dynamically -->
-    </tbody>
-</table>
-
-<!-- Dropdown to select Employee ID -->
-<label for="employeeDropdown">Select Employee ID:</label>
-<select id="employeeDropdown">
-    <option value="">-- Select Employee ID --</option>
-    <!-- Employee IDs will be inserted here dynamically -->
-</select>
-
-<div id="employeeDetails" style="display:none;">
-    <p><strong>Employee Details:</strong></p>
-    <p id="empDept"></p>
-    <p id="empDesig"></p>
-    <p id="empShift"></p>
-    <p id="empCompany"></p>
-    <p id="empOthers"></p>
-</div>
+    <div id="employeeDetails" style="display:none;">
+        <p><strong>Employee Details:</strong></p>
+        <p id="empDept"></p>
+        <p id="empDesig"></p>
+        <p id="empShift"></p>
+        <p id="empCompany"></p>
+        <p id="empOthers"></p>
+    </div>
+</main>
 
 <script src="/js/retrieveData.js"></script>
 <script src="/js/employee_insert.js"></script>
-   
+
+
 </body>
 </html>
+

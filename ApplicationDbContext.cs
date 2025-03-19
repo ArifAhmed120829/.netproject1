@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Npgsql.EntityFrameworkCore.PostgreSQL;  
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+using sql_training.Models;
 
 
 public class ApplicationDbContext : DbContext
@@ -13,16 +14,55 @@ public class ApplicationDbContext : DbContext
     public DbSet<Employee> Employees { get; set; }
 
     public DbSet<Shift> Shifts { get; set; }
+    public DbSet<Attendance> Attendances { get; set; }  
+    public DbSet<AttendanceSummary> AttendanceSummaries { get; set; }
+    
+    public DbSet<Salary> Salaries { get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder){
+        
       //set comId as primary key
       modelBuilder.Entity<Company>().HasKey(c => c.ComId);
       modelBuilder.Entity<Department>().HasKey(d => d.DeptId);
       modelBuilder.Entity<Designation>().HasKey(d => d.DesigId);
        modelBuilder.Entity<Employee>().HasKey(e => e.EmpId);
        modelBuilder.Entity<Shift>().HasKey(s => s.ShiftId);
+       modelBuilder.Entity<Attendance>()
+           .HasKey(a => new { a.EmpId, a.Date, a.ComId }); // Composite Primary Key
+       modelBuilder.Entity<AttendanceSummary>() .HasKey(a => new { a.EmpId, a.Year, a.Month }); // Composite Primary Key
+       modelBuilder.Entity<AttendanceSummary>()
+           .HasIndex(a => new {a.Year, a.Month, a.EmpId}) .IsUnique(); // unique attendance summary
+       modelBuilder.Entity<Salary>().HasKey(s => new { s.EmpId, s.Year, s.Month }); // composite primary key (salary)
+       
+       
        //this section belongs to those tables who have foreign keys
+       
+       modelBuilder.Entity<Attendance>()
+           .HasOne(a => a.Company)  // Define Foreign Key Relationship
+           .WithMany(c => c.Attendances)          
+           .HasForeignKey(a => a.ComId) // Foreign key on Attendance
+           .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if Employee is deleted
+       
+       modelBuilder.Entity<Attendance>()
+           .HasOne(a => a.Employee)  // Define Foreign Key Relationship
+           .WithMany()               // Employee can have multiple Attendance records
+           .HasForeignKey(a => a.EmpId)
+           .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if Employee is deleted
+     
+       modelBuilder.Entity<AttendanceSummary>()
+           .HasOne(c => c.Company)  // Define Foreign Key Relationship
+           .WithMany()               // Employee can have multiple Attendance records
+           .HasForeignKey(c => c.ComId)
+           .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if Employee is deleted
+       
+       modelBuilder.Entity<AttendanceSummary>()
+           .HasOne(a => a.Employee)  // Define Foreign Key Relationship
+           .WithMany()               // Employee can have multiple Attendance records
+           .HasForeignKey(a => a.EmpId)
+           .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if Employee is deleted
+       
+
 
        // Department -> Company (One-to-Many) 
     modelBuilder.Entity<Department>()
@@ -58,6 +98,12 @@ public class ApplicationDbContext : DbContext
         .WithMany(s => s.Employees)  // Ensure Shift model has ICollection<Employee>
         .HasForeignKey(e => e.ShiftId) // here shiftId is the foreign key
         .OnDelete(DeleteBehavior.Cascade);
+    //empployee -> attendance
+    modelBuilder.Entity<Employee>()
+        .HasMany(e => e.Attendances)  // One employee can have many attendance records
+        .WithOne(a => a.Employee)     // Each attendance record is related to one employee
+        .HasForeignKey(a => a.EmpId)  // Foreign key is EmpId in the Attendance table
+        .OnDelete(DeleteBehavior.Cascade);  // Optional: Cascade delete if Employee is deleted
 
    // Designation  -> company (one to many)
         modelBuilder.Entity<Designation>()
@@ -72,6 +118,8 @@ modelBuilder.Entity<Shift>()
     .WithMany(c => c.Shifts)  // Add ICollection<Shift> in Company model
     .HasForeignKey(s => s.ComId) // here comId the foreign key
     .OnDelete(DeleteBehavior.Cascade);
+
+base.OnModelCreating(modelBuilder);
 
 }
                

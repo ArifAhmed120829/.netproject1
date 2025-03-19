@@ -1,3 +1,5 @@
+using sql_training.Models;
+
 public class Company{
    public int ComId {get; set;} //primary key
 
@@ -17,6 +19,11 @@ public class Company{
          public ICollection<Employee> Employees { get; set; } = new List<Employee>();
          public ICollection<Designation> Designations { get; set; } = new List<Designation>();
          public ICollection<Shift> Shifts { get; set; } = new List<Shift>(); 
+         
+         public ICollection<Attendance>? Attendances { get; set; }
+         public ICollection<AttendanceSummary>? AttendanceSummary { get; set; }
+         
+         public ICollection<Salary> Salaries { get; set; } = new List<Salary>();
 
 
 }

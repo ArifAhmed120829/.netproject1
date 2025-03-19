@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IdkIkqlT6vRCG7wjh24NPX/nspAJOmkINGRwITHQZms=",
+  "Hash": "whfTGs+JIgpwf3NEF7j/ZEn5a8dDG8y3nMLExE+VNZY=",
   "Source": "sql_training",
   "BasePath": "_content/sql_training",
   "Mode": "Default",
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/scopedcss/projectbundle/sql_training.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "js/attendance_summary#[.{fingerprint=e61jy5436e}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j3c1n0jk7t",
+      "Integrity": "gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js"
     },
     {
       "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/7ejql5i7ri-khv3u5hwcm.gz",
@@ -752,12 +773,12 @@
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz",
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
       "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/sql_training",
-      "RelativePath": "html/insert#[.{fingerprint=42frlan893}]?.html.gz",
+      "RelativePath": "html/insert#[.{fingerprint=qaarnuodg0}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -766,8 +787,8 @@
       "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "koqlmztbqw",
-      "Integrity": "VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8=",
+      "Fingerprint": "xohlqz43er",
+      "Integrity": "0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html"
@@ -1109,6 +1130,48 @@
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "js/salary#[.{fingerprint=dbhcfcblu7}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "c7tblrv7z5",
+      "Integrity": "mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "html/attendance_summary#[.{fingerprint=hjyu3b8dxk}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pd9rszv227",
+      "Integrity": "wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html"
+    },
+    {
       "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/p50fddcz3j-0j3bgjxly4.gz",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
@@ -1235,12 +1298,12 @@
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz",
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
       "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/sql_training",
-      "RelativePath": "js/employee_insert#[.{fingerprint=3o9schsbkv}]?.js.gz",
+      "RelativePath": "js/employee_insert#[.{fingerprint=20h1ybdczo}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1249,11 +1312,32 @@
       "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/js/employee_insert.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uatskcc7s3",
-      "Integrity": "VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM=",
+      "Fingerprint": "rl9mu6tdra",
+      "Integrity": "4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/js/employee_insert.js"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "html/salary#[.{fingerprint=rk00nhd9c7}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q4gbiab7gh",
+      "Integrity": "alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html"
     },
     {
       "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/s1gttotbl6-2z0ns9nrw6.gz",
@@ -1277,12 +1361,12 @@
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz",
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
       "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/sql_training",
-      "RelativePath": "js/retrieveData#[.{fingerprint=h3xy6qhi10}]?.js.gz",
+      "RelativePath": "js/retrieveData#[.{fingerprint=7u28fr6fz3}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1291,8 +1375,8 @@
       "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/js/retrieveData.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "iie7d1ebou",
-      "Integrity": "xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY=",
+      "Fingerprint": "5r7rmgwkpi",
+      "Integrity": "AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/js/retrieveData.js"
@@ -1403,12 +1487,12 @@
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz",
+      "Identity": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
       "ContentRoot": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/sql_training",
-      "RelativePath": "html/index#[.{fingerprint=j264z6pz43}]?.html.gz",
+      "RelativePath": "html/index#[.{fingerprint=5m0d6nhfph}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1417,8 +1501,8 @@
       "RelatedAsset": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ut68jrvqa3",
-      "Integrity": "koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE=",
+      "Fingerprint": "4dyvy99gcw",
+      "Integrity": "SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html"
@@ -1592,6 +1676,27 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/wwwroot/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "html/attendance_summary#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hjyu3b8dxk",
+      "Integrity": "o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/attendance_summary.html"
+    },
+    {
       "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
       "SourceId": "sql_training",
       "SourceType": "Discovered",
@@ -1606,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j264z6pz43",
-      "Integrity": "Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=",
+      "Fingerprint": "5m0d6nhfph",
+      "Integrity": "XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/html/index.html"
@@ -1627,11 +1732,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "42frlan893",
-      "Integrity": "/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=",
+      "Fingerprint": "qaarnuodg0",
+      "Integrity": "4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/html/insert.html"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/wwwroot/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "html/salary#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rk00nhd9c7",
+      "Integrity": "621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/salary.html"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/wwwroot/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "js/attendance_summary#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e61jy5436e",
+      "Integrity": "tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/attendance_summary.js"
     },
     {
       "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/js/employee_insert.js",
@@ -1648,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3o9schsbkv",
-      "Integrity": "8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=",
+      "Fingerprint": "20h1ybdczo",
+      "Integrity": "rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/employee_insert.js"
@@ -1690,11 +1837,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h3xy6qhi10",
-      "Integrity": "8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=",
+      "Fingerprint": "7u28fr6fz3",
+      "Integrity": "X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/retrieveData.js"
+    },
+    {
+      "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js",
+      "SourceId": "sql_training",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/arif/RiderProjects/sql_training/wwwroot/",
+      "BasePath": "_content/sql_training",
+      "RelativePath": "js/salary#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbhcfcblu7",
+      "Integrity": "qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/salary.js"
     },
     {
       "Identity": "/home/arif/RiderProjects/sql_training/wwwroot/js/site.js",
@@ -3874,13 +4042,13 @@
       ]
     },
     {
-      "Route": "html/index.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz",
+      "Route": "html/attendance_summary.hjyu3b8dxk.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001385041551"
+          "Quality": "0.002732240437"
         }
       ],
       "ResponseHeaders": [
@@ -3890,15 +4058,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "721"
+          "Value": "365"
         },
         {
           "Name": "ETag",
-          "Value": "\"koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE=\""
+          "Value": "\"wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjyu3b8dxk"
+        },
+        {
+          "Name": "label",
+          "Value": "html/attendance_summary.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg="
+        }
+      ]
+    },
+    {
+      "Route": "html/attendance_summary.hjyu3b8dxk.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjyu3b8dxk"
+        },
+        {
+          "Name": "label",
+          "Value": "html/attendance_summary.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg="
+        }
+      ]
+    },
+    {
+      "Route": "html/attendance_summary.hjyu3b8dxk.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjyu3b8dxk"
+        },
+        {
+          "Name": "label",
+          "Value": "html/attendance_summary.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk="
+        }
+      ]
+    },
+    {
+      "Route": "html/attendance_summary.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002732240437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3918,18 +4247,163 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=\""
+          "Value": "W/\"o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY="
+          "Value": "sha256-o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg="
         }
       ]
     },
     {
-      "Route": "html/index.html",
+      "Route": "html/attendance_summary.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/attendance_summary.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o0YVMFKxUtf1Tyqbc2bJjXvwvh7C3RXt42mik9/AqMg="
+        }
+      ]
+    },
+    {
+      "Route": "html/attendance_summary.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ot2ibyh9zr-hjyu3b8dxk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 19:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wx+NxVTmmm/DmbGT4v0E278uQj8MYCQOTTm2Yw9nJxk="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.5m0d6nhfph.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001206272618"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "828"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5m0d6nhfph"
+        },
+        {
+          "Name": "label",
+          "Value": "html/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.5m0d6nhfph.html",
       "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3939,7 +4413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1881"
+          "Value": "2201"
         },
         {
           "Name": "Content-Type",
@@ -3947,121 +4421,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=\""
+          "Value": "\"XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.html.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.j264z6pz43.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001385041551"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j264z6pz43"
+          "Value": "5m0d6nhfph"
         },
         {
           "Name": "label",
@@ -4069,13 +4443,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY="
+          "Value": "sha256-XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU="
         }
       ]
     },
     {
-      "Route": "html/index.j264z6pz43.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
+      "Route": "html/index.5m0d6nhfph.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4084,7 +4458,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1881"
+          "Value": "828"
         },
         {
           "Name": "Content-Type",
@@ -4092,56 +4466,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY=\""
+          "Value": "\"SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "j264z6pz43"
-        },
-        {
-          "Name": "label",
-          "Value": "html/index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rd0wgoBbQV3u/TObUp/P38U/tnZlvDk1Z0ZPGwHQIaY="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.j264z6pz43.html.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-j264z6pz43.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:00:34 GMT"
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4159,7 +4488,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j264z6pz43"
+          "Value": "5m0d6nhfph"
         },
         {
           "Name": "label",
@@ -4167,18 +4496,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-koOXEeJEo3EOs3vH9WCaUGe7HrBVOFqOIu3Ne7+CQrE="
+          "Value": "sha256-SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM="
         }
       ]
     },
     {
-      "Route": "html/insert.42frlan893.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz",
+      "Route": "html/index.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001438848921"
+          "Quality": "0.001206272618"
         }
       ],
       "ResponseHeaders": [
@@ -4188,19 +4517,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "828"
         },
         {
           "Name": "ETag",
-          "Value": "\"VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8=\""
+          "Value": "\"SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -4216,26 +4545,155 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=\""
+          "Value": "W/\"XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "42frlan893"
-        },
-        {
-          "Name": "label",
-          "Value": "html/insert.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI="
+          "Value": "sha256-XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU="
         }
       ]
     },
     {
-      "Route": "html/insert.42frlan893.html",
+      "Route": "html/index.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZbaN4y6Hl9zQXajAZLcVvxnL/PtNwY0l8NZUXzmVwU="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ygoq67b6zq-5m0d6nhfph.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 09:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SIoKhSaNo5Dl3qiPukWvtqEjkpJ+jK8N1fjyhNy2BCM="
+        }
+      ]
+    },
+    {
+      "Route": "html/insert.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001379310345"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "724"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk="
+        }
+      ]
+    },
+    {
+      "Route": "html/insert.html",
       "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4245,7 +4703,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3154"
+          "Value": "3205"
         },
         {
           "Name": "Content-Type",
@@ -4253,11 +4711,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=\""
+          "Value": "\"4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk="
+        }
+      ]
+    },
+    {
+      "Route": "html/insert.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g="
+        }
+      ]
+    },
+    {
+      "Route": "html/insert.qaarnuodg0.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001379310345"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "724"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qaarnuodg0"
+        },
+        {
+          "Name": "label",
+          "Value": "html/insert.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk="
+        }
+      ]
+    },
+    {
+      "Route": "html/insert.qaarnuodg0.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4267,7 +4870,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "42frlan893"
+          "Value": "qaarnuodg0"
         },
         {
           "Name": "label",
@@ -4275,13 +4878,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI="
+          "Value": "sha256-4ttCVt791e5Xh1nQvM4SZ2J2VceL/gZV1BTlxP12PXk="
         }
       ]
     },
     {
-      "Route": "html/insert.42frlan893.html.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz",
+      "Route": "html/insert.qaarnuodg0.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-qaarnuodg0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4290,7 +4893,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "724"
         },
         {
           "Name": "Content-Type",
@@ -4298,11 +4901,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8=\""
+          "Value": "\"0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Sun, 16 Mar 2025 02:48:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4320,7 +4923,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "42frlan893"
+          "Value": "qaarnuodg0"
         },
         {
           "Name": "label",
@@ -4328,18 +4931,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8="
+          "Value": "sha256-0RKf5xYMrUpNHLSfbhYqohaj/NqL1qO+Vm/T/hPRs5g="
         }
       ]
     },
     {
-      "Route": "html/insert.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz",
+      "Route": "html/salary.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001438848921"
+          "Quality": "0.003039513678"
         }
       ],
       "ResponseHeaders": [
@@ -4349,15 +4952,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "328"
         },
         {
           "Name": "ETag",
-          "Value": "\"VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8=\""
+          "Value": "\"alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4377,19 +4980,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=\""
+          "Value": "W/\"621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI="
+          "Value": "sha256-621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0="
         }
       ]
     },
     {
-      "Route": "html/insert.html",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/insert.html",
+      "Route": "html/salary.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4398,7 +5001,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3154"
+          "Value": "650"
         },
         {
           "Name": "Content-Type",
@@ -4406,11 +5009,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI=\""
+          "Value": "\"621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4420,13 +5023,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/JE5YUGdqHE26A03xRPFCMhjgcPB80ndO3Kyb54WzMI="
+          "Value": "sha256-621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0="
         }
       ]
     },
     {
-      "Route": "html/insert.html.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ger77abfk3-42frlan893.gz",
+      "Route": "html/salary.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4435,7 +5038,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "694"
+          "Value": "328"
         },
         {
           "Name": "Content-Type",
@@ -4443,11 +5046,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8=\""
+          "Value": "\"alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:45:47 GMT"
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4465,18 +5068,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VEwTNK1D3VlzgxVvPjpwbvCAlXFJQxcnTODj97ajym8="
+          "Value": "sha256-alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs="
         }
       ]
     },
     {
-      "Route": "js/employee_insert.3o9schsbkv.js",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz",
+      "Route": "html/salary.rk00nhd9c7.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000975609756"
+          "Quality": "0.003039513678"
         }
       ],
       "ResponseHeaders": [
@@ -4486,15 +5089,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1024"
+          "Value": "328"
         },
         {
           "Name": "ETag",
-          "Value": "\"VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM=\""
+          "Value": "\"alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rk00nhd9c7"
+        },
+        {
+          "Name": "label",
+          "Value": "html/salary.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0="
+        }
+      ]
+    },
+    {
+      "Route": "html/salary.rk00nhd9c7.html",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/html/salary.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rk00nhd9c7"
+        },
+        {
+          "Name": "label",
+          "Value": "html/salary.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-621u81kRN7wrm2DVd19Cr9khv0vTr46u/8mP2x9fMb0="
+        }
+      ]
+    },
+    {
+      "Route": "html/salary.rk00nhd9c7.html.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/rxfjhmxfeo-rk00nhd9c7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 05:29:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rk00nhd9c7"
+        },
+        {
+          "Name": "label",
+          "Value": "html/salary.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-alCtWs/R6BQBwfh0gAJIhnesN8fkL1V3t4LY3f6/nxs="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.e61jy5436e.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4514,13 +5278,311 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=\""
+          "Value": "W/\"tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o9schsbkv"
+          "Value": "e61jy5436e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/attendance_summary.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.e61jy5436e.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61jy5436e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/attendance_summary.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.e61jy5436e.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61jy5436e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/attendance_summary.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/attendance_summary.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tiIfRIZJJAVIp7mP/2PErndBVkeQJTORybDoMZ0oj0k="
+        }
+      ]
+    },
+    {
+      "Route": "js/attendance_summary.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/6zf54qeryo-e61jy5436e.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWV7q68FPTn232+AfFl2oUZVSEqzzkBGUw+VLFr7H0c="
+        }
+      ]
+    },
+    {
+      "Route": "js/employee_insert.20h1ybdczo.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000649772580"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1538"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "20h1ybdczo"
         },
         {
           "Name": "label",
@@ -4528,12 +5590,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI="
+          "Value": "sha256-rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho="
         }
       ]
     },
     {
-      "Route": "js/employee_insert.3o9schsbkv.js",
+      "Route": "js/employee_insert.20h1ybdczo.js",
       "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/employee_insert.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4543,7 +5605,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3414"
+          "Value": "5710"
         },
         {
           "Name": "Content-Type",
@@ -4551,11 +5613,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=\""
+          "Value": "\"rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4565,7 +5627,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o9schsbkv"
+          "Value": "20h1ybdczo"
         },
         {
           "Name": "label",
@@ -4573,13 +5635,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI="
+          "Value": "sha256-rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho="
         }
       ]
     },
     {
-      "Route": "js/employee_insert.3o9schsbkv.js.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz",
+      "Route": "js/employee_insert.20h1ybdczo.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4588,7 +5650,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1024"
+          "Value": "1538"
         },
         {
           "Name": "Content-Type",
@@ -4596,11 +5658,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM=\""
+          "Value": "\"4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4618,7 +5680,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3o9schsbkv"
+          "Value": "20h1ybdczo"
         },
         {
           "Name": "label",
@@ -4626,18 +5688,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM="
+          "Value": "sha256-4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw="
         }
       ]
     },
     {
       "Route": "js/employee_insert.js",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000975609756"
+          "Quality": "0.000649772580"
         }
       ],
       "ResponseHeaders": [
@@ -4647,15 +5709,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1024"
+          "Value": "1538"
         },
         {
           "Name": "ETag",
-          "Value": "\"VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM=\""
+          "Value": "\"4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4675,13 +5737,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=\""
+          "Value": "W/\"rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI="
+          "Value": "sha256-rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho="
         }
       ]
     },
@@ -4696,7 +5758,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3414"
+          "Value": "5710"
         },
         {
           "Name": "Content-Type",
@@ -4704,11 +5766,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI=\""
+          "Value": "\"rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4718,13 +5780,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8w+/CJUS8yB/6+/g26dqRasEs5FsQaEo9FcAdff99JI="
+          "Value": "sha256-rrXAOgltBUaDm5Kf9osRGzo401mf0aSyBJayz+hy6ho="
         }
       ]
     },
     {
       "Route": "js/employee_insert.js.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-3o9schsbkv.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/ruhaqi7wwo-20h1ybdczo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4733,7 +5795,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1024"
+          "Value": "1538"
         },
         {
           "Name": "Content-Type",
@@ -4741,11 +5803,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM=\""
+          "Value": "\"4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 02:54:26 GMT"
+          "Value": "Mon, 17 Mar 2025 09:45:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4763,7 +5825,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VkdVgLRgrckGTSxJlzBUtQC6ifpeDZypJWyCyi4r1vM="
+          "Value": "sha256-4V+uj6cpnWK25MmbEXhYoUn/D9fh2Yfgy4lrz3XGBvw="
         }
       ]
     },
@@ -5066,13 +6128,13 @@
       ]
     },
     {
-      "Route": "js/retrieveData.h3xy6qhi10.js",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz",
+      "Route": "js/retrieveData.7u28fr6fz3.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002481389578"
+          "Quality": "0.000807102502"
         }
       ],
       "ResponseHeaders": [
@@ -5082,15 +6144,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "402"
+          "Value": "1238"
         },
         {
           "Name": "ETag",
-          "Value": "\"xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY=\""
+          "Value": "\"AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5110,13 +6172,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=\""
+          "Value": "W/\"X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h3xy6qhi10"
+          "Value": "7u28fr6fz3"
         },
         {
           "Name": "label",
@@ -5124,12 +6186,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats="
+          "Value": "sha256-X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU="
         }
       ]
     },
     {
-      "Route": "js/retrieveData.h3xy6qhi10.js",
+      "Route": "js/retrieveData.7u28fr6fz3.js",
       "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/retrieveData.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5139,7 +6201,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "3525"
         },
         {
           "Name": "Content-Type",
@@ -5147,11 +6209,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=\""
+          "Value": "\"X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5161,7 +6223,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h3xy6qhi10"
+          "Value": "7u28fr6fz3"
         },
         {
           "Name": "label",
@@ -5169,13 +6231,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats="
+          "Value": "sha256-X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU="
         }
       ]
     },
     {
-      "Route": "js/retrieveData.h3xy6qhi10.js.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz",
+      "Route": "js/retrieveData.7u28fr6fz3.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5184,7 +6246,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "402"
+          "Value": "1238"
         },
         {
           "Name": "Content-Type",
@@ -5192,11 +6254,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY=\""
+          "Value": "\"AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5214,7 +6276,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h3xy6qhi10"
+          "Value": "7u28fr6fz3"
         },
         {
           "Name": "label",
@@ -5222,18 +6284,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY="
+          "Value": "sha256-AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c="
         }
       ]
     },
     {
       "Route": "js/retrieveData.js",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002481389578"
+          "Quality": "0.000807102502"
         }
       ],
       "ResponseHeaders": [
@@ -5243,15 +6305,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "402"
+          "Value": "1238"
         },
         {
           "Name": "ETag",
-          "Value": "\"xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY=\""
+          "Value": "\"AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5271,13 +6333,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=\""
+          "Value": "W/\"X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats="
+          "Value": "sha256-X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU="
         }
       ]
     },
@@ -5292,7 +6354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "3525"
         },
         {
           "Name": "Content-Type",
@@ -5300,11 +6362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats=\""
+          "Value": "\"X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5314,13 +6376,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8yUHlCU/Gp+nJMScWMlF+hFpZIf4PzKoW0ga90doats="
+          "Value": "sha256-X5uEnK/DWj8y0hauii9InKB/gxY770IR5exLXLNL/cU="
         }
       ]
     },
     {
       "Route": "js/retrieveData.js.gz",
-      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-h3xy6qhi10.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/sifhyhzd4n-7u28fr6fz3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5329,7 +6391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "402"
+          "Value": "1238"
         },
         {
           "Name": "Content-Type",
@@ -5337,11 +6399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY=\""
+          "Value": "\"AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 18:07:38 GMT"
+          "Value": "Mon, 17 Mar 2025 09:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5359,7 +6421,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xkkjX9g348OqmYoCNsJhAemYnWWrJlWwVWrUqnKTATY="
+          "Value": "sha256-AXZB14cVQwdOCdks14rTMcxFgh/prDJ0HOE8IW1KT3c="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.dbhcfcblu7.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000687757909"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1453"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbhcfcblu7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/salary.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.dbhcfcblu7.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbhcfcblu7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/salary.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.dbhcfcblu7.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbhcfcblu7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/salary.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000687757909"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1453"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.js",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/wwwroot/js/salary.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfFTKnmRmgQyaHV4w93xvqZXzixzw/FDXfgc8YSvrFE="
+        }
+      ]
+    },
+    {
+      "Route": "js/salary.js.gz",
+      "AssetFile": "/home/arif/RiderProjects/sql_training/obj/Debug/net9.0/compressed/onbxt7d5cv-dbhcfcblu7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 08:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mJk/3+Dr5ShVTQldyVJX/OjNAW1sD2oUdLheM3akO9c="
         }
       ]
     },
